@@ -1,15 +1,23 @@
+ 
+<h1 align="center">Movies World</h1></br>
 
-## Screenshots
-<p align="center">
-<img src="/preview/preview0.gif" width="32%"/>
-<img src="/preview/preview1.gif" width="32%"/>
-<img src="/preview/preview2.gif" width="32%"/>
+<p align="center">  
+A demo Movie app  based on MVVM architecture.<br>
+  adding more feartures in progress.
 </p>
+</br>
+
+### Building the app
+
+- Open local.properties in the root directory.
+- Add your TMDB API key as follows
+- TMDB_API_KEY=ADD_YOUR_API_KEY_HERE
+- Run the app.
 
 ## Tech stack & Open-source libraries
-- Minimum SDK level 21
-- 100% [Kotlin](https://kotlinlang.org/) based + [Coroutines](https://github.com/Kotlin/kotlinx.coroutines) +
-(https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/) for asynchronous.
+
+- 100% [Kotlin](https://kotlinlang.org/) based + [Coroutines](https://github.com/Kotlin/kotlinx.coroutines)
+ for asynchronous.
 - JetPack
   - LiveData - notify domain layer data to views.
   - Lifecycle - dispose observing data when lifecycle state changes.
@@ -17,7 +25,7 @@
   - Navigation Component - Navigate between app's destinations
   - View Binding - write code that interacts with views more easily
 - Architecture
-  - MVVM Architecture (View - DataBinding - ViewModel - Model)
+  - MVVM Architecture (View - ViewModel - Model)
   - Repository pattern
   - [Koin](https://github.com/InsertKoinIO/koin) - dependency injection
 - Material Design & Animations ---> soon 
@@ -27,4 +35,11 @@
 - [Timber](https://github.com/JakeWharton/timber) - logging
 
 ## Unit Testing Frameworks
+
 - soon 
+
+## Screenshots
+<p align="center">
+<img src="/images/image1.png" width="32%"/>
+
+</p>
